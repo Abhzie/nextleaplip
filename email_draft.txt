@@ -1,0 +1,18 @@
+Subject: Groww weekly review pulse
+
+Hi team,
+
+Here is this week's review pulse.
+
+Top themes:
+- App Experience & Reliability
+- Orders & Trading
+- Funds, KYC & Account Access
+
+Action ideas:
+- Instrument withdrawal/order flows with clear status and expected completion timing.
+- Add visible support-ticket progress and reduce repeat-information loops.
+- Test goal-wise portfolio tracking with configurable buckets.
+
+Best,
+Product Insights

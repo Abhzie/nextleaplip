@@ -1,0 +1,32 @@
+source,date,rating,title,text,record_type,source_url
+google_play,2026-09-09,3,Redemption is slow,"I've been using this app for two years. Everything's working fine, but its processing speed is very slow. Whenever I want to redeem money, it takes five days for the money to be credited.",public,https://play.google.com/store/apps/details?id=com.nextbillion.groww
+google_play,2026-09-08,5,Goal-wise tracking,"Cumulative investing is not easy to track when investors have multiple financial goals. It would be great if the app introduced goal-wise trackers with sub-divisions for goals like retirement, education, wealth creation, etc.",public,https://play.google.com/store/apps/details?id=com.nextbillion.groww
+google_play,2026-08-28,3,F&O page after login,"Initially, I thought it was happening only with my phone, but later I discovered that everyone else was facing the issue with the latest app update.",public,https://play.google.com/store/apps/details?id=com.nextbillion.groww
+google_play,2026-08-18,2,Trade execution gets stuck,"Your app gets stuck far too often at the time of trade execution, and even after setting a profit/loss limit, the order does not get executed automatically.",public,https://play.google.com/store/apps/details?id=com.nextbillion.groww
+app_store,2026-09-02,1,Account frozen during ReKYC,I have been locked out of my own investments due to a ReKYC process. My account is still completely frozen with a systemic error.,public,https://apps.apple.com/in/app/groww-stocks-mutual-fund-ipo/id1404871703?see-all=reviews
+google_play,2026-09-06,2,Withdrawal pending,Withdrawal status stays pending for too long and I cannot see a clear expected credit time.,synthetic,https://example.invalid/demo-redacted
+app_store,2026-09-05,4,Portfolio loading,Portfolio takes a few seconds to load after opening the app.,synthetic,https://example.invalid/demo-redacted
+google_play,2026-09-04,2,Support follow-up,Support asked me to repeat the same details instead of showing ticket progress.,synthetic,https://example.invalid/demo-redacted
+app_store,2026-09-03,4,Simple dashboard,The dashboard is easy to understand and I can find my holdings quickly.,synthetic,https://example.invalid/demo-redacted
+google_play,2026-09-01,3,Notifications,Trade notifications sometimes arrive later than expected.,synthetic,https://example.invalid/demo-redacted
+app_store,2026-08-31,4,SIP tracking,SIP details are easy to find but goal tracking could be more detailed.,synthetic,https://example.invalid/demo-redacted
+google_play,2026-08-27,2,Order status,"After placing an order, the status does not always update immediately.",synthetic,https://example.invalid/demo-redacted
+app_store,2026-08-25,4,Beginner friendly,The interface is simple and the main actions are easy to understand.,synthetic,https://example.invalid/demo-redacted
+google_play,2026-08-23,2,App crash,The app occasionally closes while moving between portfolio screens.,synthetic,https://example.invalid/demo-redacted
+app_store,2026-08-20,3,KYC status,I would like a clearer view of where my verification is in the process.,synthetic,https://example.invalid/demo-redacted
+google_play,2026-08-16,2,Support delay,It took too long to get a useful response from support.,synthetic,https://example.invalid/demo-redacted
+app_store,2026-08-14,5,Clean interface,The app is straightforward and portfolio information is easy to find.,synthetic,https://example.invalid/demo-redacted
+google_play,2026-08-10,2,Slow loading,Screens can take a long time to load during busy market periods.,synthetic,https://example.invalid/demo-redacted
+app_store,2026-08-07,4,Mutual fund filters,More filters would make it easier to compare mutual funds.,synthetic,https://example.invalid/demo-redacted
+google_play,2026-08-04,2,Order retry,"When an order fails, I want a clearer retry option.",synthetic,https://example.invalid/demo-redacted
+app_store,2026-08-01,4,Goal buckets,Goal-based buckets would make long-term investing easier to follow.,synthetic,https://example.invalid/demo-redacted
+google_play,2026-07-28,3,Withdrawal tracking,I want a clearer timeline for withdrawals.,synthetic,https://example.invalid/demo-redacted
+app_store,2026-07-25,4,Account navigation,Account settings are easy to find but some screens feel crowded.,synthetic,https://example.invalid/demo-redacted
+google_play,2026-07-21,2,Support ticket,Ticket updates are not clear enough.,synthetic,https://example.invalid/demo-redacted
+app_store,2026-07-18,5,Easy investing,Buying a mutual fund was straightforward.,synthetic,https://example.invalid/demo-redacted
+google_play,2026-07-14,3,Charts,Charts sometimes take time to load.,synthetic,https://example.invalid/demo-redacted
+app_store,2026-07-10,4,SIP reminders,SIP reminders are useful but I would like more notification controls.,synthetic,https://example.invalid/demo-redacted
+google_play,2026-07-06,2,Login issue,I had to retry login several times before getting into the app.,synthetic,https://example.invalid/demo-redacted
+app_store,2026-07-02,4,Portfolio view,The portfolio summary is clear and useful.,synthetic,https://example.invalid/demo-redacted
+google_play,2026-06-29,2,Trade confirmation,Trade confirmation should appear faster.,synthetic,https://example.invalid/demo-redacted
+app_store,2026-06-25,4,Search,Searching for stocks is straightforward.,synthetic,https://example.invalid/demo-redacted

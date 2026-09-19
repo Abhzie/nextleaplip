@@ -1,53 +1,32 @@
 # Groww Review Pulse — LIP 5
 
-A small, rerunnable pipeline for turning public App Store + Play Store reviews into a weekly one-page product pulse.
-
-## Product carried forward
-**Groww**, selected in LIP 4. The previous repository confirms Groww was the chosen product.
+A Streamlit prototype that turns public app-store reviews into a weekly product pulse.
 
 ## Flow
-`CSV import → PII-safe cleaning → theme grouping (max 5) → quote selection → action ideas → weekly note → email draft`
+1. Import a public CSV with `source,date,rating,title,text,record_type,source_url`.
+2. Remove obvious PII from review text.
+3. Assign each review to one of five fixed themes.
+4. Filter a 7-day weekly window.
+5. Generate top themes, representative quotes, action ideas and an email draft.
+6. Download the weekly note and email draft.
 
-## Demo status
-The included `data/reviews_demo.csv` is a **demo/sample corpus**. It contains 3 reviews copied from the public Groww Google Play listing and redacted synthetic rows for testing the 8–12 week workflow. It intentionally contains no usernames, emails or IDs.
+## Five-theme legend
+- Funds, KYC & Account Access
+- Orders & Trading
+- App Experience & Reliability
+- Support & Communications
+- Product Requests
 
-Before an operational run, replace the CSV with a public review export containing:
-`source,date,rating,title,text`
+## Demo data
+The bundled demo corpus contains **5 public review excerpts** and **26 clearly labeled synthetic/redacted rows** spanning 8–12 weeks. Synthetic rows are included only to demonstrate the end-to-end weekly workflow. They must not be presented as real user reviews.
 
-## Run
+The public rows are from publicly visible Groww Google Play/App Store review pages. Usernames, emails and IDs are excluded.
+
+## Rerun
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Upload a CSV, choose the week, and click **Generate pulse**. The app outputs the top 3 themes, 3 quotes and 3 action ideas. The fallback classifier is deterministic so the demo works without an API key.
-
-## LLM prompt
-The app includes a prompt template for an LLM stage. The model is instructed to:
-- use only supplied review text;
-- assign exactly one of five themes;
-- keep quotes verbatim except PII redaction;
-- never invent counts or quotes;
-- produce ≤250 words;
-- return exactly 3 action hypotheses.
-
-## PII rules
-Never persist author names, usernames, emails, phone numbers, account IDs, ticket IDs or other reviewer identifiers. Redact PII before storing or sending reviews to an LLM.
-
-## Theme legend
-
-1. Funds, KYC & Account Access — withdrawals, deposits, KYC, login/account access.
-2. Orders & Trading — order placement/execution, trading flows and related failures.
-3. App Experience & Reliability — crashes, freezes, speed, navigation, UI/update regressions.
-4. Support & Communications — support/tickets and outbound notifications/messages.
-5. Product Requests — explicit requests for new/customizable product capabilities.
-
-## Re-run for a new week
-1. Export the latest public reviews.
-2. Replace `data/reviews_demo.csv`.
-3. Run the app and select the new week.
-4. Review the three quotes for PII.
-5. Export/copy the generated note into the weekly email draft.
-
-## Important sourcing note
-The demo does not scrape behind logins. Use public review exports/feeds that your source permits. Store only the fields needed for analysis.
+## Submission note
+For a production-like run, replace `data/reviews_demo.csv` with a public review export/feed covering the latest 8–12 weeks. Do not scrape behind logins and do not include usernames, emails or IDs.
